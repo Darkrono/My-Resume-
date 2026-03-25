@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramakrishna Gadagoni - Portfolio Resume</title>
+  <meta name="description" content="Portfolio resume of Ramakrishna Gadagoni.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="background-effects">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-glow"></div>
+
+  <nav class="glass-nav">
+    <div class="logo">RG<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+    </ul>
+    <button class="nav-btn" onclick="window.print()">Download PDF</button>
+  </nav>
+
+  <main class="container">
+    <header class="hero hidden">
+      <div class="hero-content">
+        <h2 class="greeting">Hello, I'm</h2>
+        <h1 class="name">Ramakrishna <span>Gadagoni</span></h1>
+        
+        <div class="role-switch-container">
+          <div class="role-switch">
+            <input type="checkbox" id="roleToggle" class="checkbox">
+            <label for="roleToggle" class="label">
+              <span class="role-text web-text">Web Developer</span>
+              <span class="role-text video-text">Freelance Video Editor</span>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </div>
+        
+        <div class="contact-info">
+          <a href="mailto:ramaroni143@gmail.com" class="contact-badge">
+            <i class="fas fa-envelope"></i> ramaroni143@gmail.com
+          </a>
+          <a href="tel:+919160891551" class="contact-badge">
+            <i class="fas fa-phone-alt"></i> +91 9160891551
+          </a>
+          <a href="https://linkedin.com/in/rama-roni-98377825a" target="_blank" class="contact-badge">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/Darkrono" target="_blank" class="contact-badge">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- WEB DEVELOPER VIEW -->
+    <div id="web-dev-view" class="role-view active-view">
+      <section id="about" class="section hidden">
+        <div class="section-title">
+          <h2>Summary</h2>
+          <div class="line"></div>
+        </div>
+        <div class="glass-card summary-card">
+          <p>
+            Aspiring <strong>Web/Software Engineer</strong> equipped with foundational knowledge in Python. 
+            Dedicated to translating coding principles into impactful software solutions, aiming to build robust applications that enhance user experiences. 
+            Eager to contribute programming proficiency and innovative problem-solving in an entry-level engineering role.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section hidden">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <div class="line"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item glass-card card-hover">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Ethical Hacking Framework for Emerging Technologies</h3>
+                <span class="timeline-date">August 2024 - December 2024</span>
+              </div>
+              <p>
+                Engineered an ethical hacking framework tailored for emerging technologies, enhancing security assessment capabilities by <strong>40%</strong> and enabling rapid identification of potential vulnerabilities.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-pill">Cybersecurity</span>
+                <span class="tech-pill">Framework</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item glass-card card-hover">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Enhancing Rider Safety - Computer Vision Helmet Detection</h3>
+                <span class="timeline-date">Nov 2023 - June 2024</span>
+              </div>
+              <p class="subtitle">Community service project</p>
+              <p>
+                Engineered a computer vision system for helmet detection, achieving a <strong>95% accuracy rate</strong> in identifying non-compliance and enhancing rider safety measures across metropolitan areas.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-pill">Computer Vision</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Machine Learning</span>
+              </div>
+              <a href="https://www.computer.org/csdl/proceedings-article/icsadl/2024/961500a413/1YRNAxiAygU" target="_blank" class="project-link">
+                Read Publication <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section hidden">
+        <div class="section-title">
+          <h2>Technical Skills</h2>
+          <div class="line"></div>
+        </div>
+        <div class="glass-card skills-container">
+          <h3 class="subsection-title">Programming & Web</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-python skill-icon python-color"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-java skill-icon java-color"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js skill-icon js-color"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-html5 skill-icon html-color"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt skill-icon css-color"></i>
+              <span>CSS3</span>
+            </div>
+          </div>
+          <h3 class="subsection-title mt-4">Professional Skills</h3>
+          <div class="tech-stack flex-wrap">
+            <span class="tech-pill secondary-pill">Problem Solving</span>
+            <span class="tech-pill secondary-pill">Communication</span>
+            <span class="tech-pill secondary-pill">Skills Management</span>
+            <span class="tech-pill secondary-pill">Team Collaboration</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section hidden">
+        <div class="section-title">
+          <h2>Certifications</h2>
+          <div class="line"></div>
+        </div>
+        <div class="glass-card card-hover cert-card">
+          <div class="edu-icon cert-icon"><i class="fas fa-certificate"></i></div>
+          <p class="cert-title">3rd International Conference on Sentiment Analysis and Deep Learning</p>
+          <p class="cert-org">Far Western University, 2024</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIDEO EDITOR VIEW -->
+    <div id="video-editor-view" class="role-view">
+      <section id="about-video" class="section hidden">
+        <div class="section-title">
+          <h2>Summary</h2>
+          <div class="line"></div>
+        </div>
+        <div class="glass-card summary-card">
+          <p>
+            A dedicated <strong>Freelance Video Editor</strong> passionate about crafting compelling visual stories through creative video edits. 
+            Partner with various creators and clients to deliver high-quality video content using industry-standard tools, specializing in cutting, color grading, motion graphics, and audio mixing.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section hidden">
+        <div class="section-title">
+          <h2>Experience</h2>
+          <div class="line"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item glass-card card-hover">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Freelance Video Editor</h3>
+                <span class="timeline-date">2021 - Present</span>
+              </div>
+              <p>
+                Successfully deliver complete post-production workflows across multiple content genres including gaming, commercial ads, and podcasts. Known for keen attention to visual pacing and beat-driven narratives.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-pill">Premiere Pro</span>
+                <span class="tech-pill">After Effects</span>
+                <span class="tech-pill">Storytelling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="showcase-video" class="section hidden">
+        <div class="section-title">
+          <h2>Video Showcase</h2>
+          <div class="line"></div>
+        </div>
+        <div class="filter-container">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="gaming">Gaming</button>
+          <button class="filter-btn" data-filter="ads">Ads</button>
+          <button class="filter-btn" data-filter="podcast">Podcast</button>
+        </div>
+
+        <div class="showcase-grid">
+          <!-- Gaming Category -->
+          <a href="https://drive.google.com/drive/folders/1qR9ZP6FM9sudmu-4YEhzcySG_DlTwLGY" target="_blank" class="showcase-item glass-card card-hover" data-category="gaming">
+            <div class="video-placeholder" style="background-image: url('assets/gaming_thumb.png'); background-size: cover; background-position: center;">
+              <div class="overlay"></div>
+              <div class="play-icon" style="position: absolute; z-index: 2; top: 50%; left: 50%; transform: translate(-50%, -50%);"><i class="fas fa-play"></i></div>
+            </div>
+            <h3 class="video-title">High-Energy Gaming Montages</h3>
+            <p class="video-desc">Fast-paced cuts, beat-synced visuals, and dynamic sound design.</p>
+          </a>
+
+          <!-- Ads Category -->
+          <a href="https://drive.google.com/drive/folders/1AdOeWlqRCX-obi_xmcTcI2lH5dcIKJPj" target="_blank" class="showcase-item glass-card card-hover" data-category="ads">
+            <div class="video-placeholder" style="background-image: url('assets/ads_thumb.png'); background-size: cover; background-position: center;">
+              <div class="overlay"></div>
+              <div class="play-icon" style="position: absolute; z-index: 2; top: 50%; left: 50%; transform: translate(-50%, -50%);"><i class="fas fa-play"></i></div>
+            </div>
+            <h3 class="video-title">Commercial Brand Ads</h3>
+            <p class="video-desc">Engaging, high-retention promotional videos for products and services.</p>
+          </a>
+
+          <!-- Podcast Category -->
+          <a href="https://drive.google.com/drive/folders/1Us6loVGsxYSMlnKZWkQorhKtB76E_4Im" target="_blank" class="showcase-item glass-card card-hover" data-category="podcast">
+            <div class="video-placeholder" style="background-image: url('assets/podcast_thumb.png'); background-size: cover; background-position: center;">
+              <div class="overlay"></div>
+              <div class="play-icon" style="position: absolute; z-index: 2; top: 50%; left: 50%; transform: translate(-50%, -50%);"><i class="fas fa-play"></i></div>
+            </div>
+            <h3 class="video-title">Professional Podcasts</h3>
+            <p class="video-desc">Multi-cam editing, audio enhancement, and engaging short-form clips.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="hobbies-video" class="section hidden">
+        <div class="section-title">
+          <h2>Creative Interests</h2>
+          <div class="line"></div>
+        </div>
+        <div class="glass-card hobbies-container">
+          <div class="hobbies-list">
+            <div class="hobby-item">
+              <div class="hobby-icon"><i class="fas fa-film"></i></div>
+              <div class="hobby-details">
+                <h4>Video Editing & Post-Production</h4>
+                <p>Crafting visual stories</p>
+              </div>
+            </div>
+            <div class="hobby-item">
+              <div class="hobby-icon"><i class="fas fa-paint-brush"></i></div>
+              <div class="hobby-details">
+                <h4>Graphic Design</h4>
+                <p>Creating digital art and thumbnails</p>
+              </div>
+            </div>
+            <div class="hobby-item">
+              <div class="hobby-icon"><i class="fas fa-headphones-alt"></i></div>
+              <div class="hobby-details">
+                <h4>Sound Design</h4>
+                <p>Auditory exploration and audio mixing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- COMMON SECTION -->
+    <section id="education" class="section hidden">
+      <div class="section-title">
+        <h2>Education</h2>
+        <div class="line"></div>
+      </div>
+      <div class="grid-2-col">
+        <div class="glass-card card-hover edu-card">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Bachelor of Technology</h3>
+          <h4>Kalasalingam Academy of Research and Education, Madurai</h4>
+          <p class="edu-meta">Minor in Cyber Security | Graduating 2025</p>
+          <div class="edu-score">CGPA: <span>6.69</span></div>
+        </div>
+
+        <div class="glass-card card-hover edu-card">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <h3>Higher Secondary Education</h3>
+          <h4>Narayana IIT Academy - Raviryala, Hyderabad</h4>
+          <p class="edu-meta">Minor in MPC | 2021</p>
+          <div class="edu-score">Percentage: <span>84.4%</span></div>
+        </div>
+
+        <div class="glass-card card-hover edu-card">
+          <div class="edu-icon"><i class="fas fa-book-reader"></i></div>
+          <h3>School Secondary Education</h3>
+          <h4>Narayana Co School, Hyderabad</h4>
+          <p class="edu-meta">2019</p>
+          <div class="edu-score">CGPA: <span>8.7</span></div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="glass-footer">
+      <p>&copy; 2026 Ramakrishna Gadagoni. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
